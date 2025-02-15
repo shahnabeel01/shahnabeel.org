@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shah Nabeel</title>
+    <link rel="shortcut icon" href="./assets/web-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+        <!-- Navbar -->
+        <header>
+            <nav class="mobile-menu">
+                <div class="logo">
+                    <div class="logo">
+                        <a href="#"><h1>Shah <span>Nabeel</span></h1></a>
+                    </div>
+                </div>
+                
+                <div class="links">
+                    <ul>
+                        <li><a href="#home" class="home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="talkBtn">
+                    <a href="#contact">Let's Talk</a>
+                </div>
+                <!-- SideBar -->
+                
+                <div class="menu">
+                    <button id="menuBtn" class="fa-solid fa-bars"></button>
+                </div>
+            </nav>
+        </header>
+        <div id="side-bar" class="sideBar">
+            <div class="close-button">
+                <button id="closeBtn" class="fa-solid fa-arrow-right"></button>
+            </div>
+            <!-- sideBar Links -->
+            <div class="links">
+                <ul>
+                    <li><a onclick="closeWithLink()" href="#home" class="home">Home</a></li>
+                    <li><a onclick="closeWithLink()" href="#about">About</a></li>
+                    <li><a onclick="closeWithLink()" href="#services">Services</a></li>
+                    <li><a onclick="closeWithLink()" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Talk button -->
+            <div class="talkBtn">
+                <a onclick="closeWithLink()" href="#contact">Let's Talk</a>
+            </div>
+        </div>
+         <!-- Main Content -->
+        <section id="home" class="hero-section">
+            <div class="container1">
+                <div class="mainContent">
+                    <div class="heading">
+                        <h1>
+                            Hello, I'm <span>Shah Nabeel</span> <br>
+                            Frontend Developer.
+                         </h1>
+                    </div>
+                    <div class="subHeading">
+                        <p>
+                            Bringing designs to life
+                            with <br> codes & Creativity.
+                        </p>
+                        <a href="#about" type="button">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container2">
+                <div class="main-img">
+                <img src="./assets/main-image.png" alt="Main Image" width="500px"> 
+            </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="aboutSec-text">
+                <h1>About Me</h1>
+                <p>
+                    I'm a passionate frontend web developer with 3 years of experience in designing and developing high-quality websites. I specialize infront-end, ensuring every website is visually appealing and fully functional.
+                </p>
+
+            <div class="skills-content">
+                    <h2>Skills : </h2>
+                    <!-- lists -->
+                <div class="skill-lists">
+                    <ul>
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>JavaScript</li>
+                        <!-- Add more skills -->
+                    </ul>
+
+                    <div class="skillsIcon">
+                        <i class="fa-solid fa-code"></i>
+                        <i class="fa-brands fa-css"></i>
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+
+                </div>
+            </div>
+
+                <!-- <h5>
+                    " Act as if what you do makes a difference. It does. "<br> <span> -William James </span>
+                </h5> -->
+
+            </div>
+            <div class="aboutSec-img">
+                <img src=".//assets/about-img.png" width="500px" alt="About Section Image">
+            </div>
+        </section>
+        <!-- Services section -->
+        <section class="services-section" id="services">
+            <div class="service-img">
+                <img src="./assets/services-img.gif" alt="Services Image">
+            </div>
+            
+            <div class="service-text">
+                <h2>Services</h2>
+                <p>
+                    As a Frontend Developer, I specialize in crafting visually stunning and highly interactive web experiences. Here’s what I can do for you:
+                </p>
+                <details>
+                    <summary>Responsive Web Design</summary>
+                    <ul>
+                        <li>Mobile-friendly, tablet, and desktop optimization</li>
+                        <li>Modern and clean UI/UX design</li>
+                        <li>Pixel-perfect implementation</li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Custom Website Development</summary>
+                    <ul>
+                        <li>HTML, CSS, JavaScript-based websites</li>
+                        <li>Tailored solutions using frameworks like Bootstrap & Tailwind</li>
+                        <li>Fast-loading and SEO-friendly websites
+                        </li>
+                    </ul>
+                </details>
+
+                <details>
+                    <summary>Web Performance Optimization</summary>
+                    <ul>
+                        <li>Faster loading times with optimized assets</li>
+                        <li>Improved Core Web Vitals for better rankings</li>
+                        <li>Browser compatibility and smooth user experience</li>
+                    </ul>
+                </details>
+
+                <details>
+                    <summary>Interactive Web Elements</summary>
+                    <ul>
+                        <li> Animations and transitions for an engaging UI</li>
+                        <li>Dynamic effects using JavaScript</li>
+                        <li>Custom interactive components</li>
+                    </ul>
+                </details>
+
+                <details>
+                    <summary>Website Maintenance & Updates</summary>
+                    <ul>
+                        <li>Bug fixing and troubleshooting</li>
+                        <li> Adding new features and improvements</li>
+                        <li>Regular updates for security and performance</li>
+                    </ul>
+                </details>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="form">
+                <div class="form-content">
+                    <div class="heading">
+                        <h3>Contact <span>Infromation</span></h3>
+                        <p>Drop a Message & Let's Get Started!</p>
+                    </div>
+                    <div class="contact-options">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-phone"></i> +91 9309240257
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                shahnabeel@gmail.com
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Malegaon, Maharashtra
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- form
+                action: https://formspree.io/f/mzzdvglr
+                method: POST -->
+                <form>
+                    <h2>Get in touch</h2>
+                    <!-- Username -->
+                     <input id="userName" type="text" placeholder="Name">
+                     <!-- Email -->
+                     <input id="userEmail" type="email" placeholder="Email">
+                     <!-- Message -->
+                     <textarea id="userMessage" placeholder="Message..."></textarea>
+                     <!-- Submit Button -->
+                    <button id="submitBtn" type="button">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer>
+            <div class="logo">
+                <a href="#"><h1>Shah <span>Nabeel</span></h1></a>
+            </div>
+            <div class="links">
+                <ul>
+                    <li><a href="#home" class="home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/1Grxg6RkCt/" target="_blank" class="fa-brands fa-facebook"></a>
+                <a href="https://www.instagram.com/mr_nabeeeel_/profilecard/?igsh=aTZyc2ZzYjJwdHM3" target="_blank" class="fa-brands fa-instagram"></a>
+                <a href="https://x.com/mr_nabeeeel_?t=VvdJSq1NDTUFsR9NgO-brg&s=08" target="_blank" class="fa-brands fa-x-twitter"></a>
+                <a href="#notAvailable" class="fa-brands fa-linkedin-in"></a>
+            </div>
+            <div class="copyright">
+                <h3>&copy; 2025 Designed & Developed by <span>Shah Nabeel </span></h3>
+            </div>
+        </footer>
+
+        <!-- Script -->
+        <script src="script.js"></script>
+</body>
+</html>
